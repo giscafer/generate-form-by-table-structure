@@ -1,0 +1,30 @@
+{
+  "name": "generate-form-by-table-structure",
+  "version": "0.0.1",
+  "description": "According to the table structure to automatically generate the form",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giscafer/generate-form-by-table-structure.git"
+  },
+  "keywords": [
+    "nodejs",
+    "oracle",
+    "mysql",
+    "mongodb",
+    "自动生成表单"
+  ],
+  "author": "giscafer@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giscafer/generate-form-by-table-structure/issues"
+  },
+  "homepage": "https://github.com/giscafer/generate-form-by-table-structure#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "oracledb": "^1.8.0"
+  }
+}
