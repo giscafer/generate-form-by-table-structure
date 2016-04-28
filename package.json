@@ -25,6 +25,7 @@
   "homepage": "https://github.com/giscafer/generate-form-by-table-structure#readme",
   "dependencies": {
     "async": "^1.5.2",
+    "lodash": "^4.11.1",
     "oracledb": "^1.8.0"
   }
 }

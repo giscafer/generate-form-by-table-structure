@@ -4,6 +4,9 @@
 var async = require('async');
 var oracledb = require('oracledb');
 var dbConfig = require('./dbconfig.js');
+//
+var mainForm=require('../angular/mainForm');
+
 var doconnect = function(cb) {
   oracledb.getConnection(
     {
@@ -31,7 +34,8 @@ var doquery_columns = function (conn, cb) {
         return cb(err, conn);
       } else {
         console.log("----- Cities beginning with 'S' (default ARRAY output format) --------");
-        console.log(result.rows);
+        mainForm.buildTableHtml(result.rows);
+        // console.log(result.rows);
         return cb(null, conn);
       }
     });
