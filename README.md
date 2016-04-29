@@ -1,7 +1,7 @@
 # generate-form-by-table-structure
 According to the table structure to automatically generate the form 
 
-根据表结构自动生成表单
+根据表结构自动生成表单，支持数据库有`mysql`、`oracle`
 
 在开发复杂的业务系统经常遇到几十，上百个字段的表，或者一个模块涉及十多张表的时候，
 可以借助自动生成表单的方式，加快表单搭建速度！

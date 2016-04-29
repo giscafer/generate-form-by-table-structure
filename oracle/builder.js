@@ -1,5 +1,6 @@
 /**
  * @author giscafer
+ * oracle builder
  */
 var async = require('async');
 var oracledb = require('oracledb');
