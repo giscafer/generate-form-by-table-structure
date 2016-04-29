@@ -1,8 +1,18 @@
 # generate-form-by-table-structure
 According to the table structure to automatically generate the form 
+
 根据表结构自动生成表单
 
+在开发复杂的业务系统经常遇到几十，上百个字段的表，或者一个模块涉及十多张表的时候，
+可以借助自动生成表单的方式，加快表单搭建速度！
+
 ## Usage
+
+ * `npm install`，如果`oracledb`不能正常安装，请参考>>[nodejs链接oracle](http://giscafer.com/2016/04/13/node-oracledb-demo/)
+
+ * 修改`oracle/dbconfig.js`配置
+
+ * 运行`node oracle/builder.js`
 
 生成表单在`builder`目录下，如`mainForm.html`文件是自动生成的angular表单模板
 
@@ -49,6 +59,7 @@ According to the table structure to automatically generate the form
 	</table>
 
 ```
+同样可生成弹窗表单`popForm.html`和`infoForm.html`
 
 ## License
 ![](https://img.shields.io/badge/license-MIT-blue.svg)

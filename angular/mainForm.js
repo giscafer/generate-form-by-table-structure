@@ -9,7 +9,7 @@ var async = require('async');
 var filePath = path.join(__dirname, '../builder/');
 var fileName='/mainForm.html';
 
-function buildTableHtml(result) {
+function builder(result) {
     var columns = _.map(result, 'COLUMN_NAME');
     console.info('column names:\n' + columns+'\n');
     var tableHtml = '<table class="dataTables" width="100%" id="main_form">' +
@@ -71,5 +71,5 @@ function buildTbodyHtml(columns) {
 }
 
 module.exports = {
-    buildTableHtml
+    builder
 };
